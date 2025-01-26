@@ -13,7 +13,7 @@ from colorama import Fore, Back, Style
 
 
 client = OpenAI(
-    api_key= "API KEY"
+    api_key= "OPENAI API KEY"
 )
 INSTRUCTIONS_FOR_CHATCBD="""You are an AI called Chat CBD. With every response you have a surfer dude slang to your words similar to that
               of Chicken Joe from the movie Surf's Up.
