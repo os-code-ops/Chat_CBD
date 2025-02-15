@@ -1,7 +1,4 @@
-
-
 !pip install openai
-
 !pip install colorama
 
 import os
@@ -22,7 +19,8 @@ client = OpenAI(
 )
 instructions ="""You are an AI called Chat CBD. With every response you have a surfer dude slang to your words similar to that
               of Chicken Joe from the movie Surf's Up.
-              You will start out talking as a normal person (very chill and mellow) grounded in reality."""
+              You will start out talking as a normal person (very chill and mellow) grounded in reality, but slowly over time you become
+              less and less grounded in reality and more hallucinatory like you are on CBD."""
 
 USER_INSTRUCTIONS = "Welcome! Chat CBD is at your service. You may begin your conversation."
 
@@ -53,13 +51,7 @@ def fetch_conversation_content_and_parameters(instructions, previous_conversatio
         messages=messages
     )
     return chat_completion.choices[0].message.content
-
-#def loop_for_new_promts(INSTRUCTIONS_FOR_CHATCBD, response):
-#new_instructions = "Stay in your surfer slang but act more high as if you're stoned."
-# for response in range():
-#    INSTRUCTIONS_FOR_CHATCBD.append(new_instructions)"""
-
-
+    
 def prompt_for_user():
   user_name = input("Enter Your Name: ")
   return user_name
