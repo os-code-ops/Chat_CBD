@@ -17,9 +17,9 @@ Chat CBD: A Trippy AI Chatbot 🌿💬
         -  copy/paste `main_env.py` or clone repository using (https://github.com/os-code-ops/Chat_CBD.git)
       -  **Google Colab environment** - copy/paste `main_gcolab.py` into a [Google Colab Notebook](https://colab.google/)
 -  **Set Up OpenAI API Key**
-  -  Create a key [here](https://auth.openai.com/authorize?audience=https%3A%2F%2Fapi.openai.com%2Fv1&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjEuMCJ9&client_id=DRivsnm2Mu42T3KOpqdtwB3NYviHYzwD&device_id=19e2dad0-18f1-44b5-bbad-a00a4e7c0e7f&ext-login-allow-phone=true&ext-use-new-phone-ui=true&issuer=https%3A%2F%2Fauth.openai.com&max_age=0&nonce=OEEwYnRrV09hRGYzazZqaVNGaFpMRUloeENfSGp5RDN2TkRRRDA0REt5OQ%3D%3D&redirect_uri=https%3A%2F%2Fplatform.openai.com%2Fauth%2Fcallback&response_mode=query&response_type=code&scope=openid+profile+email+offline_access&screen_hint=signup&state=UEN6NC0yQkdPMzliMHpWYXNkeE15WFJ%2BdjRkNjB2ckhfU2NHfkVXZUJVMg%3D%3D&flow=treatment)
-    -  Follow this video to set up your OpenAI API Key (https://www.youtube.com/watch?v=gBSh9JI28UQ)  
-      -  **Local environment**
+    -  Create a key [here](https://auth.openai.com/authorize?audience=https%3A%2F%2Fapi.openai.com%2Fv1&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjEuMCJ9&client_id=DRivsnm2Mu42T3KOpqdtwB3NYviHYzwD&device_id=19e2dad0-18f1-44b5-bbad-a00a4e7c0e7f&ext-login-allow-phone=true&ext-use-new-phone-ui=true&issuer=https%3A%2F%2Fauth.openai.com&max_age=0&nonce=OEEwYnRrV09hRGYzazZqaVNGaFpMRUloeENfSGp5RDN2TkRRRDA0REt5OQ%3D%3D&redirect_uri=https%3A%2F%2Fplatform.openai.com%2Fauth%2Fcallback&response_mode=query&response_type=code&scope=openid+profile+email+offline_access&screen_hint=signup&state=UEN6NC0yQkdPMzliMHpWYXNkeE15WFJ%2BdjRkNjB2ckhfU2NHfkVXZUJVMg%3D%3D&flow=treatment)
+      -  Follow this video to set up your OpenAI API Key (https://www.youtube.com/watch?v=gBSh9JI28UQ)  
+        -  **Local environment**
           -  create `.env` file and add your key: `OPENAI_API_KEY=<<YOUR_API_KEY>>`
       -  **Google Colab environment**
           -  Make a secret key using your OpenAI API Key and call it `OPENAI_API_KEY`:
