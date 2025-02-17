@@ -23,7 +23,8 @@ Chat CBD: A Trippy AI Chatbot 🌿💬
           -  create `.env` file and add your key: `OPENAI_API_KEY=<<YOUR_API_KEY>>`
       -  **Google Colab environment**
           -  Make a secret key using your OpenAI API Key and call it `OPENAI_API_KEY`:
-            -  ![image](https://github.com/user-attachments/assets/29ced41c-6e71-4b26-a637-b2c7ea44ac4a)
+            -  ![image](https://github.com/user-attachments/assets/9390ec29-a5b3-498a-afa3-b27e85547706)
+
 -  **Run Code**
       -  **Local environment**
           -  run script: `main_env.py`
