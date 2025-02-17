@@ -1,18 +1,20 @@
 # Chat CBD
 Chat CBD: A Trippy AI Chatbot 🌿💬
   - Chat CBD is a playful experiment leveraging OpenAI's API to create a chatbot that mimcs the experience of becoming "stoned" over time. As the conversation continues, the AI's Reponses grow increasingly laid-back and out of the box
-# Steps to How It Works:
+# Installation Steps:
+
+-  Prerequistites -
+    Before running the project, ensure you have the following dependencies installed:
+      - `openai`: Python client for the OpenAI API.
+      - `colorama`: For colored terminal output.
+      - `google.colab`: For managing environment variables in Google Colab (optional, depending on setup).
+      - `textwrap`: To format long text responses.
+# How It Works:
 1. System Instructions
 2. Send Previous Conversation to AI
 3. Increase the Temperature
 4. User Interaction
 5. Output
-# Prerequistites
-Before running the project, ensure you have the following dependencies installed:
-  - `openai`: Python client for the OpenAI API.
-  - `colorama`: For colored terminal output.
-  - `google.colab`: For managing environment variables in Google Colab (optional, depending on setup).
-  - `textwrap`: To format long text responses.
 # 1. System Instructions
   - The chatbot starts by setting a system message that guides its tone and style of communication. Initially, the AI responds in a grounded, mellow, and chill way, akin to a relaxed surfer.
     ```python
