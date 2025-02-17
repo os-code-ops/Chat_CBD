@@ -1,6 +1,3 @@
-!pip install openai
-!pip install colorama
-
 import os
 from openai import OpenAI
 import textwrap
